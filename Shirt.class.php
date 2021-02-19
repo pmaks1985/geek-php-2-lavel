@@ -2,9 +2,24 @@
 
 class Shirt
 {
-    public $color;
-    public $size;
-    public $material;
+    private $color;
+    private $size;
+    private $material;
+
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    public function getSize()
+    {
+        return $this->size;
+    }
+
+    public function getMaterial()
+    {
+        return $this->material;
+    }
 
     function __construct($color,$size,$material) {
         $this->color = $color;
@@ -13,7 +28,7 @@ class Shirt
 
     }
 
-    function show()
+    public function show()
     {
         echo $this->color . " рубашка из " . $this->material . " имеет размер " . $this->size . "<hr>";
     }
