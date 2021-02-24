@@ -19,12 +19,12 @@ class DigitalGoods extends Good
 
     function PriceGood()
     {
-        echo "Цена товара: " . self::PRICE . "<br>";
+        echo "Цена цифрового товара: " . self::PRICE . "<br>";
     }
 
     function GetIncome()
     {
-        echo "Чистая прибыль: " . self::PRICE * $this->revenueFromSales . "<br>";
+        echo "Чистая прибыль от продажи цифрового товара: " . self::PRICE * $this->revenueFromSales . "<br>";
     }
 }
 
@@ -36,18 +36,25 @@ class PhysicalItem extends DigitalGoods
 {
     function PriceGood()
     {
-        echo parent::PRICE / 2 . "<br>";
+        echo "Цена физического товара: " . parent::PRICE / 2 . "<br>";
+    }
+
+    public function GetIncome()
+    {
+        echo "Чистая прибыль от продажи физического товара: " . parent::PRICE / 2 * parent::getRevenueFromSales() . "<br>";
     }
 }
 
 $pi = new PhysicalItem;
 $pi->PriceGood();
+$pi->GetIncome();
 
 
 class GoodsByWeight extends Good
 {
     private $weight = 2;
     private $price = 24;
+    private $revenueFromSales = 0.90; //10% расходы
 
     public function getPrice()
     {
@@ -60,11 +67,22 @@ class GoodsByWeight extends Good
         return $this->weight;
     }
 
+    public function getRevenueFromSales()
+    {
+        return $this->revenueFromSales;
+    }
+
     function PriceGood()
     {
-        echo $this->weight * $this->price . "<br>";
+        echo "Цена товара на вес: " . $this->getWeight() * $this->getPrice() . "<br>";
+    }
+
+    function GetIncome()
+    {
+        echo "Чистая прибыль от продажи товара на вес: " . $this->getPrice() * $this->getWeight() * $this->getRevenueFromSales() . "<br>";
     }
 }
 
 $gbw = new GoodsByWeight;
 $gbw->PriceGood();
+$gbw->GetIncome();
