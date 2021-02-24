@@ -2,45 +2,69 @@
 
 abstract class Good
 {
-    private $price = 400;
+    abstract function PriceGood(); //метод получения цены
+
+    abstract function GetIncome(); //метод получения дохода
+}
+
+class DigitalGoods extends Good
+{
+    const PRICE = 400;
+    private $revenueFromSales = 0.95; //5% расходы
+
+    public function getRevenueFromSales()
+    {
+        return $this->revenueFromSales;
+    }
+
+    function PriceGood()
+    {
+        echo "Цена товара: " . self::PRICE . "<br>";
+    }
+
+    function GetIncome()
+    {
+        echo "Чистая прибыль: " . self::PRICE * $this->revenueFromSales . "<br>";
+    }
+}
+
+$dg = new DigitalGoods;
+$dg->PriceGood();
+$dg->getIncome();
+
+class PhysicalItem extends DigitalGoods
+{
+    function PriceGood()
+    {
+        echo parent::PRICE / 2 . "<br>";
+    }
+}
+
+$pi = new PhysicalItem;
+$pi->PriceGood();
+
+
+class GoodsByWeight extends Good
+{
+    private $weight = 2;
+    private $price = 24;
 
     public function getPrice()
     {
         return $this->price;
     }
 
-    function __construct($price){
-        $this->price = $price;
-        $this->PriceGood();
-    }
 
-    abstract function PriceGood();
-}
-
-class DigitalGoods extends Good
-{
-
-    function PriceGood($price)
+    public function getWeight()
     {
-        echo "$price<br>";
+        return $this->weight;
     }
-}
 
-$digitalGoods = new DigitalGoods();
-$digitalGoods->PriceGood();
-
-class PhysicalItem extends DigitalGoods
-{
-    function PriceGood($price)
+    function PriceGood()
     {
-        echo $price / 2;
+        echo $this->weight * $this->price . "<br>";
     }
 }
 
-$physicalItem = new PhysicalItem();
-$physicalItem->PriceGood(400);
-
-class GoodsByWeight
-{
-
-}
+$gbw = new GoodsByWeight;
+$gbw->PriceGood();
