@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb816a52-528f-408b-9f6a-89200583e914" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Twig/Autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Compiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/CompilerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Environment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Error/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Error/Runtime.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Error/Syntax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/ExistsLoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/ExpressionParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Core.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Escaper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Optimizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/Staging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Extension/StringLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/ExtensionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Filter/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Filter/Method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Filter/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/FilterCallableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/FilterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Function/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Function/Method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Function/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/FunctionCallableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/FunctionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/LexerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Loader/Array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Loader/Chain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Loader/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Loader/String.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/LoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Markup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/AutoEscape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/BlockReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Body.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Do.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Embed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Array.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/AssignName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/And.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseAnd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseOr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/BitwiseXor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Concat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Div.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Equal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/FloorDiv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Greater.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/GreaterEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/In.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Less.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/LessEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Mod.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Mul.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/NotEqual.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/NotIn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Or.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Power.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Range.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Binary/Sub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/BlockReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Call.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Conditional.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Constant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/ExtensionReference.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Filter/Default.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/GetAttr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/MethodCall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Parent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/TempName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Constant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Defined.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Divisibleby.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Even.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Null.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Odd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Test/Sameas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Unary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Neg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Not.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Expression/Unary/Pos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Flush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/For.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/ForLoop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/If.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Macro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Print.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/SandboxedModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/SandboxedPrint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/SetTemp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Spaceless.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Node/Text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeOutputInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeTraverser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeVisitor/Escaper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeVisitor/Optimizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeVisitor/SafeAnalysis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeVisitor/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/NodeVisitorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/ParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Sandbox/SecurityError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Sandbox/SecurityPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Sandbox/SecurityPolicyInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/SimpleFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/SimpleFunction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/SimpleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TemplateInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test/Function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test/IntegrationTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test/Method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test/Node.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Test/NodeTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TestCallableInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TestInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/AutoEscape.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Block.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Do.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Embed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Extends.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Filter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Flush.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/For.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/From.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/If.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Include.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Macro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Sandbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Spaceless.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParser/Use.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParserBroker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParserBrokerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Twig/TokenStream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/contents.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/content.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="c910d6de-5f5c-46c1-8aee-25dd80c3f7fa" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1lVNAHYJKH2FI2AHfPYeIfHAjEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP_7.4/php.exe" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\geek-php\public\uploads" />
+      <recent name="D:\OpenServer\domains\geek-php\Catalog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\geek-php\pages\catalog" />
+      <recent name="D:\OpenServer\domains\geek-php\public" />
+      <recent name="D:\OpenServer\domains\geek-php\reviews" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb816a52-528f-408b-9f6a-89200583e914" name="Default Changelist" comment="" />
+      <created>1607678167184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607678167184</updated>
+      <workItem from="1607678180984" duration="715000" />
+      <workItem from="1607845048731" duration="3581000" />
+      <workItem from="1607920307673" duration="4790000" />
+      <workItem from="1607932111487" duration="2023000" />
+      <workItem from="1608018558868" duration="5400000" />
+      <workItem from="1608098360356" duration="12154000" />
+      <workItem from="1608185874905" duration="11756000" />
+      <workItem from="1608466013383" duration="630000" />
+      <workItem from="1608528660641" duration="8099000" />
+      <workItem from="1608704823966" duration="5285000" />
+      <workItem from="1608786539753" duration="8152000" />
+      <workItem from="1608874323111" duration="5330000" />
+      <workItem from="1608883910409" duration="213000" />
+      <workItem from="1608978556470" duration="11176000" />
+      <workItem from="1609136267598" duration="5151000" />
+      <workItem from="1609220845950" duration="9514000" />
+      <workItem from="1609250388465" duration="1994000" />
+      <workItem from="1609329566656" duration="4773000" />
+      <workItem from="1609659641906" duration="29000" />
+      <workItem from="1609659743304" duration="2867000" />
+      <workItem from="1609781320973" duration="1180000" />
+      <workItem from="1614336584972" duration="7955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

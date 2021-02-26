@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/geek-php-2-lavel",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "MAProhorov",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "v1.35.0"
+  }
+}
