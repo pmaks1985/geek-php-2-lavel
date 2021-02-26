@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb816a52-528f-408b-9f6a-89200583e914" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/full_images_2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/full_images_3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scan.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/blank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_loading.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_nav_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_nav_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_ne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_nw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_se.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_sw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_over.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox-x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox-y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.easing-1.3.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jquery.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +14,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="c910d6de-5f5c-46c1-8aee-25dd80c3f7fa" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1lVNAHYJKH2FI2AHfPYeIfHAjEQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -59,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modules/php/PHP_7.4/php.exe" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +92,7 @@
       <workItem from="1609659641906" duration="29000" />
       <workItem from="1609659743304" duration="2867000" />
       <workItem from="1609781320973" duration="1180000" />
-      <workItem from="1614336584972" duration="1874000" />
+      <workItem from="1614336584972" duration="3591000" />
     </task>
     <servers />
   </component>
