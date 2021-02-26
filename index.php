@@ -30,7 +30,7 @@
         <?php include "blocks/header.php"; ?>
         <div class="row">
             <div class="col-md-1">Left menu</div>
-            <?php include "blocks/content_3.php"; ?>
+            <?php include "blocks/content.php"; ?>
             <div class="col-md-1">Right menu</div>
         </div>
         <div class="row">Footer</div>

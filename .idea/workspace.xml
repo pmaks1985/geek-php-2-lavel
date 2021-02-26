@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb816a52-528f-408b-9f6a-89200583e914" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/full_images_2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/full_images_3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_nav_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_nav_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_nw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_se.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_sw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_shadow_w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancy_title_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox-x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox-y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/fancybox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.easing-1.3.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/jquery.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lVNAHYJKH2FI2AHfPYeIfHAjEQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\geek-php\public\uploads" />
+      <recent name="D:\OpenServer\domains\geek-php\Catalog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\geek-php\pages\catalog" />
+      <recent name="D:\OpenServer\domains\geek-php\public" />
+      <recent name="D:\OpenServer\domains\geek-php\reviews" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb816a52-528f-408b-9f6a-89200583e914" name="Default Changelist" comment="" />
+      <created>1607678167184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607678167184</updated>
+      <workItem from="1607678180984" duration="715000" />
+      <workItem from="1607845048731" duration="3581000" />
+      <workItem from="1607920307673" duration="4790000" />
+      <workItem from="1607932111487" duration="2023000" />
+      <workItem from="1608018558868" duration="5400000" />
+      <workItem from="1608098360356" duration="12154000" />
+      <workItem from="1608185874905" duration="11756000" />
+      <workItem from="1608466013383" duration="630000" />
+      <workItem from="1608528660641" duration="8099000" />
+      <workItem from="1608704823966" duration="5285000" />
+      <workItem from="1608786539753" duration="8152000" />
+      <workItem from="1608874323111" duration="5330000" />
+      <workItem from="1608883910409" duration="213000" />
+      <workItem from="1608978556470" duration="11176000" />
+      <workItem from="1609136267598" duration="5151000" />
+      <workItem from="1609220845950" duration="9514000" />
+      <workItem from="1609250388465" duration="1994000" />
+      <workItem from="1609329566656" duration="4773000" />
+      <workItem from="1609659641906" duration="29000" />
+      <workItem from="1609659743304" duration="2867000" />
+      <workItem from="1609781320973" duration="1180000" />
+      <workItem from="1614336584972" duration="1874000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
