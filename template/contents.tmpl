@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Geek-php</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <h1>Lorem, ipsum dolor. Сегодня {{ date }}</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-1">Left menu</div>
+        <div class="col-md-10">
+            <div class="d-flex flex-wrap">
+                {% for image in images %}
+                    <a href="full_images.php?file={{ image }}">
+                        <img src="/images/{{ image }}">
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-1">Right menu</div>
+    </div>
+    <div class="row">Footer</div>
+</div>
+</body>
+
+</html>
+
