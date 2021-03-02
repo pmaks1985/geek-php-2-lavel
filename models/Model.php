@@ -20,6 +20,25 @@ function getAll($connect, $table, $orderby = 'id')
     return $res;
 }
 
+function getLimit($connect, $table, $orderby = 'id', $limit)
+{
+    $query = "SELECT * FROM {$table} order by {$orderby} desc LIMIT 8 + {$limit}";
+    $result = mysqli_query($connect, $query);
+
+    if (!$result)
+        die(mysqli_error($connect));
+
+    $n = mysqli_num_rows($result);
+    $res = array();
+
+    for ($i = 0; $i < $n; $i++) {
+        $row = mysqli_fetch_assoc($result);
+        $res[] = $row;
+    }
+
+    return $res;
+}
+
 function getOne($connect, $id, $table)
 {
     $query = sprintf("SELECT * FROM {$table} where id=%d", (int)$id);

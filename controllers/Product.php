@@ -3,6 +3,8 @@ include_once "../models/Model.php";
 
 $goods = getAll($connect, 'goods');
 
+$goodsLimit = getLimit($connect, 'goods');
+
 if (isset($_GET[id])) {
     $id = $_GET[id];
 }
