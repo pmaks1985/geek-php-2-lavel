@@ -3,7 +3,7 @@ require_once "../config/database.php";
 
 function getAll($connect, $table, $orderby = 'id')
 {
-    $query = "SELECT * FROM {$table} order by {$orderby} desc";
+    $query = "SELECT * FROM {$table} order by {$orderby} desc LIMIT 8";
     $result = mysqli_query($connect, $query);
 
     if (!$result)
