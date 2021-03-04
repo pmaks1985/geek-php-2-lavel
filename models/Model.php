@@ -20,9 +20,9 @@ function getAll($connect, $table, $orderby = 'id')
     return $res;
 }
 
-function getAlllimit($connect, $table, $orderby = 'id', $goodLim)
+function getAlllimit($connect, $table, $orderby = 'id', $idLim)
 {
-    $query = "SELECT * FROM {$table} order by {$orderby} desc LIMIT {$goodLim}";
+    $query = "SELECT * FROM {$table} order by {$orderby} desc WHERE id>$idLim LIMIT 8";
     $result = mysqli_query($connect, $query);
 
     if (!$result)
@@ -279,7 +279,7 @@ function goods_delete($connect, $id)
     return mysqli_affected_rows($connect);
 }
 
-function goods_edit($connect, $id, $nameShort, $nameFull, $price, $param, $bigPhoto, $miniPhoto, $weight, $discount,  $stickerFit, $stickerHit)
+function goods_edit($connect, $id, $nameShort, $nameFull, $price, $param, $bigPhoto, $miniPhoto, $weight, $discount, $stickerFit, $stickerHit)
 {
     $id = (int)$id;
 
@@ -330,25 +330,9 @@ function changeImage($h, $w, $src, $newsrc, $type)
 }
 
 
-function renderAllGoods($connect) {
+function renderAllGoods($connect)
+{
     $query = "SELECT * FROM goods";
-    $result = mysqli_query($connect, $query);
-
-    if (!$result)
-        die(mysqli_error($connect));
-
-    $n = mysqli_num_rows($result);
-    $goods = array();
-
-    for ($i = 0; $i < $n; $i++) {
-        $row = mysqli_fetch_assoc($result);
-        $goods[] = $row;
-    }
-    return $goods;          
-}
-
-function renderAdminAjax ($connect) {
-	$query = "SELECT * FROM goods";
     $result = mysqli_query($connect, $query);
 
     if (!$result)
@@ -364,21 +348,40 @@ function renderAdminAjax ($connect) {
     return $goods;
 }
 
-function scanDirLoadFiles ($connect) {
-	
-$images = array_slice(scandir('../public/loadFiles'), 2);
+function renderAdminAjax($connect)
+{
+    $query = "SELECT * FROM goods";
+    $result = mysqli_query($connect, $query);
 
-foreach ($images as $image) {
-    $nameRecodRu = iconv("cp1251", "UTF-8", $image);
-    $nameFull = explode('.', $nameRecodRu)[0];
-    $fileName = translit($nameRecodRu);
-    $nameShort = explode('.', $fileName)[0];
-    $arr[] = $fileName;
+    if (!$result)
+        die(mysqli_error($connect));
 
-    if (copy('../public/loadFiles/' . $image, '../public/' . DIR_BIG . $fileName)) {
-        $type = explode('.', $fileName)[1];
-        changeImage(220, 117, '../public/' . DIR_BIG . $fileName, '../public/' . DIR_SMALL . $fileName, $type);
-        goods_new($connect, $nameShort, $nameFull, $price, $param, DIR_BIG . $fileName, DIR_SMALL . $fileName);
+    $n = mysqli_num_rows($result);
+    $goods = array();
+
+    for ($i = 0; $i < $n; $i++) {
+        $row = mysqli_fetch_assoc($result);
+        $goods[] = $row;
     }
+    return $goods;
 }
+
+function scanDirLoadFiles($connect)
+{
+
+    $images = array_slice(scandir('../public/loadFiles'), 2);
+
+    foreach ($images as $image) {
+        $nameRecodRu = iconv("cp1251", "UTF-8", $image);
+        $nameFull = explode('.', $nameRecodRu)[0];
+        $fileName = translit($nameRecodRu);
+        $nameShort = explode('.', $fileName)[0];
+        $arr[] = $fileName;
+
+        if (copy('../public/loadFiles/' . $image, '../public/' . DIR_BIG . $fileName)) {
+            $type = explode('.', $fileName)[1];
+            changeImage(220, 117, '../public/' . DIR_BIG . $fileName, '../public/' . DIR_SMALL . $fileName, $type);
+            goods_new($connect, $nameShort, $nameFull, $price, $param, DIR_BIG . $fileName, DIR_SMALL . $fileName);
+        }
+    }
 }

@@ -1,12 +1,12 @@
 <?php
 include_once "../models/Model.php";
 
-if (isset($_GET[goodLim])) {
-    $goodLim = $_GET[goodLim];
-    $goods = getAlllimit($connect, 'goods', $orderby = 'id', 8 + $goodLim);
+$idLim = $_GET[goodLim] ? $_GET[goodLim] : 0;
 
+if (isset($_GET[goodLim])) {
+    $goods = getAlllimit($connect, 'goods', $orderby = 'id', $idLim);
 } else {
-    $goods = getAll($connect, 'goods');
+    $goods = getAll($connect, goods);
 }
 
 
