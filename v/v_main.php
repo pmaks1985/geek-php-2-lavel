@@ -25,7 +25,7 @@
 <div id="menu">
     <a href="index.php">Читать текст</a> |
     <a href="index.php?c=page&act=edit">Редактировать текст</a> |
-    <a href="index.php?c=page&act=auth">Авторизироваться</a>
+    <a href="index.php?c=User&act=auth">Зарегистрироваться</a>
 </div>
 
 <div id="content">
