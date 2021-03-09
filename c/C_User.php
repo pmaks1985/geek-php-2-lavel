@@ -1,16 +1,16 @@
 <?php
 //
-// Конттроллер страницы чтения.
+// Конттроллер страницы юзера.
 //
 include_once('m/M_User.php');
 	class C_User extends C_Base {
 
 		public function action_info() {
 
-			$get_user = new User();
+			$get_user = new M_User();
 			$user_info = $get_user->get($_SESSION['user_id']);
 			$this->title .= '::' . $user_info['name'];
-			$this->content = $this->Template('v/u_info.php', array('username' => $user_info['name'], 'userlogin' => $user_info['login']));
+			$this->content = $this->Template('v/v_info.php', array('username' => $user_info['name'], 'userlogin' => $user_info['login']));
 		}
 
 		public function action_reg() {
@@ -42,7 +42,7 @@ include_once('m/M_User.php');
 		}
 
 		public function action_logout() {
-			$logout = new User();
+			$logout = new M_User();
 			$result = $logout->logout();
 		}
 	}
