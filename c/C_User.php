@@ -3,28 +3,47 @@
 // Конттроллер страницы чтения.
 //
 include_once('m/M_User.php');
+	class C_User extends C_Base {
 
-class C_User extends C_Base
-{
-    //
-    // Конструктор.
-    //
+		public function action_info() {
 
-    public function action_auth()
-    {
-        $this->title .= '::Авторизация';
-        $user = new M_User();
-        $info = "Пользователь не авторизован";
-        if ($_POST) {
-            $login = $_POST['login'];
-            $info = $user->auth("log", "past");
-		    $this->content = $this->Template('v_auth.php', array('text' => $info));
-		} else {
-            $this->content = $this->Template('v/v_auth.php');
-        }
+			$get_user = new User();
+			$user_info = $get_user->get($_SESSION['user_id']);
+			$this->title .= '::' . $user_info['name'];
+			$this->content = $this->Template('v/u_info.php', array('username' => $user_info['name'], 'userlogin' => $user_info['login']));
+		}
 
+		public function action_reg() {
 
-    }
+			$this->title .= '::Регистрация';
+			$this->content = $this->Template('v/v_reg.php', array());
 
+			if($this->isPost()) {
+				$new_user = new M_User();
+				$result = $new_user->newR($_POST['name'], $_POST['login'], $_POST['password']);
+				if ($result) {
+					$this->content = $this->Template('v/v_reg.php', array('text' => $result));
+				} else {
+					$this->content = $this->Template('v/v_reg.php', array('text' => $result));
+				}
+			}
+		}
 
-}
+		public function action_auth() {
+			$this->title .= '::Вход';
+			$this->content = $this->Template('v/u_login.php', array());
+
+			if($this->isPost()) {
+				$login = new User();
+				$result = $login->login($_POST['login'], $_POST['password']);
+				$this->content = $this->Template('v/u_login.php', array('text' => $result));
+
+			}
+		}
+
+		public function action_logout() {
+			$logout = new User();
+			$result = $logout->logout();
+		}
+	}
+?>
