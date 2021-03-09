@@ -30,13 +30,13 @@ include_once('m/M_User.php');
 		}
 
 		public function action_auth() {
-			$this->title .= '::Вход';
-			$this->content = $this->Template('v/u_login.php', array());
+			$this->title .= '::Авторизация';
+			$this->content = $this->Template('v/v_auth.php', array());
 
 			if($this->isPost()) {
-				$login = new User();
+				$login = new M_User();
 				$result = $login->login($_POST['login'], $_POST['password']);
-				$this->content = $this->Template('v/u_login.php', array('text' => $result));
+				$this->content = $this->Template('v/v_auth.php', array('text' => $result));
 
 			}
 		}
