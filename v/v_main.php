@@ -27,7 +27,7 @@
     <a href="index.php?c=page&act=edit">Редактировать текст</a> |
     <? if ($user): ?>
         <a href="index.php?c=user&act=info">Личный кабинет</a> |
-        <a href="index.php?c=user&act=logout">Выйти('. $user .')</a>
+        <a href="index.php?c=user&act=logout">Выйти(<?= $user ?>)</a>
     <? else: ?>
         <a href="index.php?c=user&act=auth">Войти</a> |
         <a href="index.php?c=user&act=reg">Зарегистрироваться</a>
