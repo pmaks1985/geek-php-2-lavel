@@ -1,6 +1,8 @@
 <?php
+require_once './db.php';
 
-function __autoload($classname){
+spl_autoload_register('c_autoload');
+function c_autoload($classname){
     include_once("c/$classname.php");
 }
 
@@ -26,3 +28,4 @@ if (isset($_GET['c'])) {
 }
 
 $controller->Request($action, $id);
+
