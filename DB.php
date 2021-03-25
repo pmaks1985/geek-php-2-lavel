@@ -54,7 +54,7 @@ class db {
      * @param array $args
      * @return array
      */
-    public static function getRows($sql, $args = []) {
+    public static function Select($sql, $args = []) {
         return self::sql($sql, $args)->fetchAll();
     }
 
