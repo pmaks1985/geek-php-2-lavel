@@ -2,19 +2,15 @@
 
 class M_Basket{
 
-//  public function __construct($userId){
-//    $this->userId = $userId;
-//  }
-
   public function getTotal(){
     $sql = "SELECT SUM(price) as 'sum' FROM basket where id_user = :userId and id_order IS NULL";
     $arg = ['userId' => $this->userId];
     return db::getRow($sql, $arg)['sum'];
   }
 
-  public function clear(){
+  public function clear($user_id){
     $sql = "DELETE FROM basket where id_order IS NULL and id_user = :userId";
-    $arg = ['userId' => $this->userId];
+    $arg = ['userId' => $user_id];
     db::delete($sql, $arg);    
   }
 
