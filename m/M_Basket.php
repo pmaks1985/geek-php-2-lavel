@@ -2,9 +2,9 @@
 
 class M_Basket{
 
-  public function __construct($userId){
-    $this->userId = $userId;
-  }
+//  public function __construct($userId){
+//    $this->userId = $userId;
+//  }
 
   public function getTotal(){
     $sql = "SELECT SUM(price) as 'sum' FROM basket where id_user = :userId and id_order IS NULL";
@@ -34,11 +34,10 @@ class M_Basket{
     db::update($sql, $arg);
   }
 
-  public function getOrders(){
+  public function getOrders($user_id){
       $sql = "SELECT order_id, product_id, count, title, price FROM basket AS T1 INNER JOIN products AS T2 ON T1.product_id = T2.id WHERE T1.user_id = :userId";
-//    $sql = "SELECT o.datetime_create, o.amount, o.destination, os.order_status_name " .
-//    "FROM orders o JOIN order_status os ON o.id_order_status = os.id_order_status WHERE id_user = :userId";
-    $arg = ['userId' => $this->userId];
+
+    $arg = ['userId' => $user_id];
     return db::Select($sql, $arg);
   }
 
