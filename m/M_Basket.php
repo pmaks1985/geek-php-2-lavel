@@ -10,9 +10,8 @@ class M_Basket
         return db::getRow($sql, $arg)['sum'];
     }
 
-    public function clear($user_id,$order_id)
+    public function clean($user_id,$order_id)
     {
-//        $sql = "DELETE FROM basket where order_id = :order_id and user_id = :userId";
         $sql = "DELETE FROM basket WHERE basket.order_id = :order_id and basket.user_id = :userId";
         $arg = ['userId' => $user_id, 'order_id' => $order_id];
         db::delete($sql, $arg);

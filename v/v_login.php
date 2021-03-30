@@ -13,14 +13,10 @@
                 <input type="submit" value="Войти" class="btn btn-primary">
             </div>
         </form>
-        <div id="hi" class="mt-5 h4" style="display: none">
-            Перейти на <a href="/">главную</a>
-        </div>
     </div>
 </div>
 <?php if (isset($text)) : ?>
     <script>
-        document.getElementById('form').style.display = 'none';
-        document.getElementById('hi').style.display = 'block';
+        alert('<?=$text?>');
     </script>
 <? endif; ?>

@@ -10,7 +10,7 @@
     $order = 0;
     if (isset($products)) {
         foreach ($products as $product) {
-            echo "<tr><td>" . $product["title"] . "</td><td>" . $product["count"] . "</td><td>" . $product["price"] . "</td><td>" . $product["count"] * $product["price"] . "</td><td><form action='index.php?c=page&act=clear' method='post'><input type='submit' value='Удалить товар' class='btn btn-default' id=" . $product["order_id"] . " name=" . $product["order_id"] . "></form></td></tr>";
+            echo "<tr><td>" . $product["title"] . "</td><td>" . $product["count"] . "</td><td>" . $product["price"] . "</td><td>" . $product["count"] * $product["price"] . "</td><td><form action='index.php?c=page&act=clean' method='post'><input type='submit' value='Удалить товар' class='btn btn-default' id=" . $product["order_id"] . " name=" . $product["order_id"] . "></form></td></tr>";
             $order += $product["count"] * $product["price"];
         }
     }

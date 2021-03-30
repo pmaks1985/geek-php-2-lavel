@@ -21,6 +21,9 @@
         <input type="submit" class="btn btn-primary" value="Зарегистрироваться" name="button">
     </form>
 </div>
-<?php if (isset($text)) {
-    echo "<script>alert('$text');document.getElementById('form').style.display = 'none';</script>";
-} ?>
+
+<?php if (isset($text)) : ?>
+    <script>
+        alert('<?=$text?>');
+    </script>
+<? endif; ?>

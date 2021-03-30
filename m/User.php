@@ -49,7 +49,7 @@
 			if (isset($_SESSION["user_id"])) {
 				unset($_SESSION["user_id"]);
 				session_destroy();
-				return true;
+				return "<script>alert('Вы успешно вышли из системмы');</script>";
 			} else {
 				return false;
 			}
