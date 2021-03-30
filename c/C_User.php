@@ -37,7 +37,6 @@
 		public function action_logout() {
 			$logout = new User();
 			$result = $logout->logout();
-            echo $result;
             $this->content = $this->Template('v/v_index.php', array('text' => $result));
 		}
 	}
