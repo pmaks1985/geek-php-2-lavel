@@ -35,3 +35,9 @@
         </div>
     </div>
 </div>
+
+<?php if (isset($text)) : ?>
+    <script>
+        alert('<?=$text?>');
+    </script>
+<? endif; ?>
